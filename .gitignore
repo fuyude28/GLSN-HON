@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+*.pt
+*.pth
+*.csv
+!data/network-ho.csv
+!data/network-fo.csv
+*.pdf
+*.png
+*.svg
+*.jpg
+*.ipynb
