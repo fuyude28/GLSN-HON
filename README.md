@@ -1,8 +1,7 @@
-# Higher-order GLSN: modeling, dismantling and robustness enhancement
+# Higher-order network modeling, dismantling and robustness enhancement
 
-Minimal research code for **A higher-order network framework for improving the
-structural robustness of the global liner shipping system**, by Yude Fu,
-Jichao Li, Weiwei Gu, Qizi Huangpeng, Guiyang Liu and Yuejin Tan.
+Minimal research code for **a higher-order network framework for improving
+structural robustness in a directed transport network**.
 
 The workflow has three modules: first-order / higher-order network construction,
 DND-DRL critical-state identification, and history-consistent bypass link addition.
@@ -200,13 +199,12 @@ Verification outputs and synthetic inputs were confined to the temporary copy.
 
 ## Implementation provenance
 
-DND-DRL is retained from `GLSN/critical/DND-DRL/dnd_drl/` in the original
-project. Training no longer loads a diagnostic checkpoint or comparison scripts.
+DND-DRL is retained from the upstream implementation. Training no longer loads
+a diagnostic checkpoint or comparison scripts.
 Inference is relocated from `evaluate_dnd.py`. Link addition and port benefits
-retain the original `GLSN/robustness/robustness_experiment.py` and
-`GLSN/rates/run_rates.py` logic. Port eligibility is computed inline using the
-original `preflight.py` rule. Protection retains
-`GLSN/protect/protect_experiment.py` dynamics for DND-DRL and the two controls.
+retain the corresponding upstream experiment logic. Port eligibility is
+computed inline using the upstream `preflight.py` rule. Protection retains the
+upstream experiment dynamics for DND-DRL and the two controls.
 Changes concern entry points, paths and removal of dependencies on saved results.
 
 The two pyHON files are by Jian Xu and retain their upstream MIT license in
