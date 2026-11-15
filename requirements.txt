@@ -1,5 +1,0 @@
-# Tested with Python 3.12; install a suitable PyTorch CUDA build for GPU runs.
-numpy==1.26.4
-networkx==3.6.1
-igraph==1.0.0
-torch==2.2.0
