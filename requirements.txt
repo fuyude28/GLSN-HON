@@ -1,0 +1,7 @@
+numpy
+networkx
+scipy
+python-igraph
+torch
+torch-geometric
+pytest
