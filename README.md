@@ -1,4 +1,4 @@
-# GLSN Minimal Research Code
+# GLSN
 
 This repository keeps the source code and the three input datasets. Generated figures, result tables, checkpoints, caches, and intermediate outputs are excluded. Experiment scripts write their outputs under their local `results` folders when run.
 
