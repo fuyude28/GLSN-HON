@@ -27,13 +27,17 @@ RESS-minimal/
 ├── enhancement/
 │   ├── link_addition.py
 │   └── port_benefits.py
+├── github-minimal-code/      # Additional structural and comparison algorithms
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
-The release contains exactly two dataset files. Runtime checkpoints, rankings,
-logs and numerical outputs are written under `outputs/`, which is ignored by Git.
+The core-method release contains two root-level dataset files. The self-contained
+`github-minimal-code/` package adds structural analysis, comparison algorithms,
+tests, and a physical-port ID/name mapping; see its own README for commands.
+Runtime checkpoints, rankings, logs and numerical outputs are written under
+`outputs/`, which is ignored by Git.
 Run the commands below from this directory. Default data and output paths are
 resolved relative to the scripts, so the folder can be relocated.
 
